@@ -10,8 +10,8 @@
 
 # Prompt user for OS version
 OS_VERSION=$(whiptail --title "Select DietPi OS Version" --menu "Choose an OS version" 15 60 4 \
-"1" "Bookworm" \
-"2" "Bullseye" 3>&1 1>&2 2>&3)
+"1" "Debian 12 Bookworm" \
+"2" "Debian 11 Bullseye" 3>&1 1>&2 2>&3)
 
 case $OS_VERSION in
     1)
